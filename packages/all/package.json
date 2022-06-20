@@ -19,6 +19,6 @@
     "eslint": "^8.18.0"
   },
   "dependencies": {
-    "@igorjacauna/eslint-config-vue": "0.0.1"
+    "@igorjacauna/eslint-config-vue": "^0.0.1"
   }
 }
