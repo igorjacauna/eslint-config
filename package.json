@@ -10,10 +10,10 @@
     "packages/*"
   ],
   "scripts": {
-    "release": "bumpp package.json packages/*/package.json --commit --push --tag && yarn publish --access public"
+    "version": "lerna version",
+    "release": "lerna publish"
   },
   "devDependencies": {
-    "bumpp": "^8.2.1",
     "eslint": "^8.18.0",
     "lerna": "^5.1.4"
   }
