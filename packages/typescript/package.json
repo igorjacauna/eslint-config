@@ -1,6 +1,6 @@
 {
   "name": "@igorjacauna/eslint-config-typescript",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Igor's ESLint config presets for Typescript",
   "repository": "https://github.com/igorjacauna/eslint-config",
   "author": "Igor Jacaúna <igor.jacauna@gmail.com> (github.com/igorjacauna)",
@@ -20,7 +20,7 @@
     "typescript": "^4.7.4"
   },
   "dependencies": {
-    "@igorjacauna/eslint-config-basic": "^0.0.2",
+    "@igorjacauna/eslint-config-basic": "^0.0.3",
     "@typescript-eslint/eslint-plugin": "^5.28.0",
     "@typescript-eslint/parser": "^5.28.0"
   },
