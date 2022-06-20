@@ -10,7 +10,7 @@
     "packages/*"
   ],
   "scripts": {
-    "version": "lerna version",
+    "bump": "lerna version",
     "release": "lerna publish"
   },
   "devDependencies": {
