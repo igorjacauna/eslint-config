@@ -1,0 +1,21 @@
+{
+  "name": "@igorjacauna/eslint-config-basic",
+  "version": "0.0.1",
+  "description": "Igor's ESLint config preset",
+  "repository": "https://github.com/igorjacauna/eslint-config",
+  "author": "Igor Jacaúna <igor.jacauna@gmail.com> (github.com/igorjacauna)",
+  "license": "MIT",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": "^8.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0"
+  }
+}

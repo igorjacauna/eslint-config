@@ -1,0 +1,17 @@
+{
+  "name": "@igorjacauna/eslint-config-monorepo",
+  "version": "0.0.1",
+  "description": "Igor's ESLint config presets",
+  "repository": "https://github.com/igorjacauna/eslint-config",
+  "author": "Igor Jacaúna <igor.jacauna@gmail.com> (github.com/igorjacauna)",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag && yarn publish --access public"
+  },
+  "devDependencies": {
+    "bumpp": "^8.2.1",
+    "eslint": "^8.18.0"
+  }
+}
