@@ -9,6 +9,7 @@ module.exports = {
       'functions': 'never'
     }],
     'semi': ['error', 'always'],
-    "eol-last": ["error", "always"]
+    "eol-last": ["error", "always"],
+    "max-len": ["error", { "code": 80, "tabWidth": 2 }],
   }
 }
