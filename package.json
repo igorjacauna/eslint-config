@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "bump": "lerna version",
-    "release": "lerna publish"
+    "release": "lerna publish --no-verify-access"
   },
   "devDependencies": {
     "eslint": "^8.18.0",
