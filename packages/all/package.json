@@ -1,6 +1,6 @@
 {
   "name": "@igorjacauna/eslint-config",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Igor's ESLint config preset",
   "repository": "https://github.com/igorjacauna/eslint-config",
   "author": "Igor Jacaúna <igor.jacauna@gmail.com> (github.com/igorjacauna)",
@@ -22,7 +22,7 @@
     "eslint": "^8.18.0"
   },
   "dependencies": {
-    "@igorjacauna/eslint-config-vue": "^0.0.5",
+    "@igorjacauna/eslint-config-vue": "^0.0.6",
     "eslint-plugin-import": "^2.26.0"
   }
 }
