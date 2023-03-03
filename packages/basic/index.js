@@ -10,6 +10,12 @@ module.exports = {
     }],
     'semi': ['error', 'always'],
     "eol-last": ["error", "always"],
-    "max-len": ["error", { "code": 80, "tabWidth": 2 }],
+    "quotes": [
+      "error",
+      "single",
+      {
+        "allowTemplateLiterals": true
+      }
+    ]
   }
 }
