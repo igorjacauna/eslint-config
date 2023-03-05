@@ -7,7 +7,12 @@ module.exports = {
   ],
   extends: [
     'plugin:react/recommended',
+    "plugin:react/jsx-runtime",
     '@igorjacauna/eslint-config-typescript',
+  ],
+  plugins: [
+    "react",
+    "react-hooks",
   ],
   rules: {
     "react/jsx-filename-extension": [

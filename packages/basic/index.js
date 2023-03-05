@@ -41,6 +41,23 @@ module.exports = {
     'max-depth': ['error', {'max': 3}],
     'max-len': ['error', { 'code': 100 }],
     'complexity': ['error', {'max': 4}],
-    'max-lines': ['warn', {'max': 300, 'skipBlankLines': true, 'skipComments': true}]
+    'max-lines': ['warn', {'max': 300, 'skipBlankLines': true, 'skipComments': true}],
+    "prettier/prettier": [
+      "error",
+      {
+        "bracketSpacing": true,
+        "singleQuote": true,
+        "jsxSingleQuote": true,
+        "trailingComma": "all",
+        "arrowParens": "avoid"
+      }
+    ],
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".d.ts", ".tsx", ".vue"]
+      }
+    }
   }
 }
