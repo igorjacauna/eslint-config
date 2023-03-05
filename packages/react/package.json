@@ -1,6 +1,6 @@
 {
   "name": "@igorjacauna/eslint-config-react",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Igor's ESLint config presets for React",
   "repository": "https://github.com/igorjacauna/eslint-config",
   "author": "Igor Jacaúna <igor.jacauna@gmail.com> (github.com/igorjacauna)",
@@ -19,7 +19,7 @@
     "eslint": "^8.18.0"
   },
   "dependencies": {
-    "@igorjacauna/eslint-config-typescript": "^0.3.0",
+    "@igorjacauna/eslint-config-typescript": "^0.3.1",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0"
