@@ -3,6 +3,9 @@ module.exports = {
     {
       files: ['*.tsx', '*.jsx'],
       parser: '@typescript-eslint/parser',
+      parserOptions: {
+        project: true,
+      },
     },
   ],
   extends: [
