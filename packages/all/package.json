@@ -1,6 +1,6 @@
 {
   "name": "@igorjacauna/eslint-config",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Igor's ESLint config preset",
   "repository": "https://github.com/igorjacauna/eslint-config",
   "author": "Igor Jacaúna <igor.jacauna@gmail.com> (github.com/igorjacauna)",
@@ -22,8 +22,8 @@
     "eslint": "^8.18.0"
   },
   "dependencies": {
-    "@igorjacauna/eslint-config-react": "^0.1.0",
-    "@igorjacauna/eslint-config-vue": "^0.1.0",
+    "@igorjacauna/eslint-config-react": "^0.2.0",
+    "@igorjacauna/eslint-config-vue": "^0.2.0",
     "eslint-plugin-import": "^2.26.0"
   }
 }
