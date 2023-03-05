@@ -1,4 +1,9 @@
 module.exports = {
+  env: {
+    es6: true,
+    browser: true,
+    node: true,
+  },
   extends: [
     'airbnb',
     'plugin:import/errors',
@@ -6,13 +11,11 @@ module.exports = {
     'prettier'
   ],
   plugins: [
-    'deprecation',
     'eslint-plugin-import-helpers',
     'prettier'
   ],
   rules: {
     'prettier/prettier': 'error',
-    'deprecation/deprecation': 'warn',
     'no-console': ['warn', { 'allow': ['tron'] }],
     'spaced-comment': ['error', 'always', { 'markers': ['/'] }],
     'import/prefer-default-export': 'off',
@@ -53,11 +56,4 @@ module.exports = {
       }
     ],
   },
-  "settings": {
-    "import/resolver": {
-      "node": {
-        "extensions": [".js", ".jsx", ".ts", ".d.ts", ".tsx", ".vue"]
-      }
-    }
-  }
 }

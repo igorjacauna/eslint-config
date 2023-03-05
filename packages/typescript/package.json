@@ -22,7 +22,8 @@
   "dependencies": {
     "@igorjacauna/eslint-config-basic": "^0.2.2",
     "@typescript-eslint/eslint-plugin": "^5.28.0",
-    "@typescript-eslint/parser": "^5.28.0"
+    "@typescript-eslint/parser": "^5.28.0",
+    "eslint-plugin-deprecation": "^1.3.3"
   },
   "devDependencies": {
     "eslint": "^8.18.0"
