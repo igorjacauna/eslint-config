@@ -1,6 +1,12 @@
 module.exports = {
-  extends: [
-    '@igorjacauna/eslint-config-vue',
-    '@igorjacauna/eslint-config-react',
+  overrides: [
+    {
+      files: ["*.vue"],
+      extends: ['@igorjacauna/eslint-config-vue'],
+    },
+    {
+      files: ['*.jsx', '*.tsx'],
+      extends: ['@igorjacauna/eslint-config-react']
+    }
   ]
 }
