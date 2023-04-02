@@ -5,7 +5,7 @@ module.exports = {
     node: true,
   },
   extends: [
-    'airbnb',
+    'airbnb-base',
     'plugin:import/errors',
     'plugin:import/warnings',
     'prettier'
