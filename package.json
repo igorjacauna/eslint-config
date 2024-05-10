@@ -29,10 +29,14 @@
   ],
   "scripts": {
     "build": "unbuild",
-    "postinstall": "npm run build"
+    "postinstall": "npm run build",
+    "release:patch": "changelogen --release --patch",
+    "release:minor": "changelogen --release --minor",
+    "release:major": "changelogen --release --major"
   },
   "devDependencies": {
     "@types/eslint__js": "^8.42.3",
+    "changelogen": "^0.5.5",
     "eslint": "^9.1.1",
     "typescript": "^5.4.5",
     "unbuild": "^2.0.0"
