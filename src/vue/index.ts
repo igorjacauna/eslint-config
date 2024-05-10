@@ -1,3 +1,8 @@
+// @ts-expect-error plugin has not typos
+import pluginVue from 'eslint-plugin-vue';
+
 export default function vue() {
-  return {}
+  return [
+    ...pluginVue.configs['flat/recommended'],
+  ];
 }
