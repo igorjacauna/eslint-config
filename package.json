@@ -1,20 +1,53 @@
 {
-  "name": "@igorjacauna/eslint-config-monorepo",
-  "version": "0.0.1",
+  "name": "@igorjacauna/eslint-config",
+  "version": "1.0.0-rc.0",
   "description": "Igor's ESLint config presets",
   "repository": "https://github.com/igorjacauna/eslint-config",
   "author": "Igor Jacaúna <igor.jacauna@gmail.com> (github.com/igorjacauna)",
+  "type": "module",
   "license": "MIT",
-  "private": true,
-  "workspaces": [
-    "packages/*"
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs"
+    },
+    "./basic": {
+      "import": "./dist/basic/index.mjs"
+    },
+    "./typescript": {
+      "import": "./dist/typescript/index.mjs"
+    },
+    "./vue": {
+      "import": "./dist/vue/index.mjs"
+    },
+    "./react": {
+      "import": "./dist/react/index.mjs"
+    }
+  },
+  "module": "./dist/index.mjs",
+  "files": [
+    "dist"
   ],
   "scripts": {
-    "bump": "lerna version",
-    "release": "lerna publish --no-verify-access"
+    "build": "unbuild",
+    "postinstall": "npm run build",
+    "release:patch": "changelogen --release --patch",
+    "release:minor": "changelogen --release --minor",
+    "release:major": "changelogen --release --major"
   },
   "devDependencies": {
-    "eslint": "^8.18.0",
-    "lerna": "^5.1.4"
+    "@types/eslint__js": "^8.42.3",
+    "changelogen": "^0.5.5",
+    "eslint": "^9.1.1",
+    "typescript": "^5.4.5",
+    "unbuild": "^2.0.0"
+  },
+  "dependencies": {
+    "@eslint/js": "^9.1.1",
+    "@stylistic/eslint-plugin": "^1.8.0",
+    "@typescript-eslint/parser": "^7.8.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-vue": "^9.25.0",
+    "globals": "^15.1.0",
+    "typescript-eslint": "^7.8.0"
   }
 }
