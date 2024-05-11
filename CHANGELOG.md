@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v1.1.0
+
+[compare changes](https://github.com/igorjacauna/eslint-config/compare/v1.0.0-rc.0...v1.1.0)
+
+### 🚀 Enhancements
+
+- **configs:** Permite extender subset de regras ([41111db](https://github.com/igorjacauna/eslint-config/commit/41111db))
+
+### 🏡 Chore
+
+- Exemplo de Nuxt ([5fabc06](https://github.com/igorjacauna/eslint-config/commit/5fabc06))
+
+### ❤️ Contributors
+
+- Igor Jacaúna <igor.jacauna@gmail.com>
+
 ## v1.0.0
 
 [compare changes](https://github.com/igorjacauna/eslint-config/compare/v0.3.3...v2.0.0)
