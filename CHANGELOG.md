@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.1.1
+
+[compare changes](https://github.com/igorjacauna/eslint-config/compare/v1.1.0...v1.1.1)
+
+### 🏡 Chore
+
+- Remove script postinstall ([35a1cde](https://github.com/igorjacauna/eslint-config/commit/35a1cde))
+
+### ❤️ Contributors
+
+- Igor Jacaúna <igor.jacauna@gmail.com>
+
 ## v1.1.0
 
 [compare changes](https://github.com/igorjacauna/eslint-config/compare/v1.0.0-rc.0...v1.1.0)

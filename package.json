@@ -1,6 +1,6 @@
 {
   "name": "@igorjacauna/eslint-config",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Igor's ESLint config presets",
   "repository": "https://github.com/igorjacauna/eslint-config",
   "author": "Igor Jacaúna <igor.jacauna@gmail.com> (github.com/igorjacauna)",
