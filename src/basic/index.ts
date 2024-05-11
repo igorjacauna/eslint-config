@@ -3,7 +3,7 @@ import eslint from '@eslint/js';
 import globals from 'globals';
 
 
-export default function basic() {
+export default function basic(overrides: unknown[] = []) {
   return [
     {
       plugins: {
@@ -47,5 +47,6 @@ export default function basic() {
         '@stylistic/js/no-trailing-spaces': 'error',
       },
     },
+    ...overrides,
   ];
 }

@@ -2,7 +2,7 @@ import stylisticTs from '@stylistic/eslint-plugin-ts';
 import tseslint from 'typescript-eslint';
 import parserTs from '@typescript-eslint/parser';
 
-export default function typescript() {
+export default function typescript(overrides: unknown[] = []) {
   return [
     {
       plugins: {
@@ -13,5 +13,6 @@ export default function typescript() {
       },
     },
     ...tseslint.configs.recommended,
+    ...overrides,
   ];
 }

@@ -1,7 +1,7 @@
 // @ts-expect-error has not typos
 import pluginReact from 'eslint-plugin-react';
 
-export default function react() {
+export default function react(overrides: unknown[] = []) {
   return [
     {
       files: ['**/*.{jsx,tsx}'],
@@ -10,5 +10,6 @@ export default function react() {
         ...pluginReact.configs.rules,
       },
     },
+    ...overrides,
   ];
 }
