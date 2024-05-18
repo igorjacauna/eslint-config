@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.1.3
+
+[compare changes](https://github.com/igorjacauna/eslint-config/compare/v1.1.2...v1.1.3)
+
+### 🩹 Fixes
+
+- Corrige types ([f626f65](https://github.com/igorjacauna/eslint-config/commit/f626f65))
+
+### ❤️ Contributors
+
+- Igor Jacaúna <igor.jacauna@gmail.com>
+
 ## v1.1.2
 
 [compare changes](https://github.com/igorjacauna/eslint-config/compare/v1.1.1...v1.1.2)
