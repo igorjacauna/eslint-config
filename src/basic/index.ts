@@ -1,9 +1,9 @@
 import stylisticJs from '@stylistic/eslint-plugin-js';
 import eslint from '@eslint/js';
 import globals from 'globals';
+import type { Linter } from 'eslint';
 
-
-export default function basic(overrides: unknown[] = []) {
+export default function basic(overrides: Linter.FlatConfig[] = []): Linter.FlatConfig[] {
   return [
     {
       plugins: {
