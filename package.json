@@ -8,22 +8,28 @@
   "license": "MIT",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs"
     },
     "./basic": {
+      "types": "./dist/basic/index.d.ts",
       "import": "./dist/basic/index.mjs"
     },
     "./typescript": {
+      "types": "./dist/typescript/index.d.ts",
       "import": "./dist/typescript/index.mjs"
     },
     "./vue": {
+      "types": "./dist/vue/index.d.ts",
       "import": "./dist/vue/index.mjs"
     },
     "./react": {
+      "types": "./dist/react/index.d.ts",
       "import": "./dist/react/index.mjs"
     }
   },
-  "module": "./dist/index.mjs",
+  "main": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
@@ -36,17 +42,17 @@
   "devDependencies": {
     "@types/eslint__js": "^8.42.3",
     "changelogen": "^0.5.5",
-    "eslint": "^9.1.1",
+    "eslint": "^9.3.0",
     "typescript": "^5.4.5",
     "unbuild": "^2.0.0"
   },
   "dependencies": {
-    "@eslint/js": "^9.1.1",
-    "@stylistic/eslint-plugin": "^1.8.0",
-    "@typescript-eslint/parser": "^7.8.0",
+    "@eslint/js": "^9.3.0",
+    "@stylistic/eslint-plugin": "^1.8.1",
+    "@typescript-eslint/parser": "^7.9.0",
     "eslint-plugin-react": "^7.34.1",
-    "eslint-plugin-vue": "^9.25.0",
-    "globals": "^15.1.0",
-    "typescript-eslint": "^7.8.0"
+    "eslint-plugin-vue": "^9.26.0",
+    "globals": "^15.2.0",
+    "typescript-eslint": "^7.9.0"
   }
 }
