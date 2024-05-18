@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.1.2
+
+[compare changes](https://github.com/igorjacauna/eslint-config/compare/v1.1.1...v1.1.2)
+
+### 🩹 Fixes
+
+- Corrige declaração de types ([0a8e1f1](https://github.com/igorjacauna/eslint-config/commit/0a8e1f1))
+
+### ❤️ Contributors
+
+- Igor Jacaúna <igor.jacauna@gmail.com>
+
 ## v1.1.1
 
 [compare changes](https://github.com/igorjacauna/eslint-config/compare/v1.1.0...v1.1.1)
